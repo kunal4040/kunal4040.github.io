@@ -1,181 +1,233 @@
+Here is a complete HTML document for the Stronghold-Protocol project page, presenting it as a fan-made browser auto chess tower defense game with download guidance and a clean, game-focused visual style.
+```html
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>arcanospeedruns | Carlos Gouveia</title>
-  <meta name="description" content="Portfólio de Carlos Gouveia: dados, front-end e design.">
-  <link rel="alternate" hreflang="pt-BR" href="https://arcanospeedruns.github.io/">
-  <link rel="alternate" hreflang="en" href="https://arcanospeedruns.github.io/en/">
-  <link rel="alternate" hreflang="x-default" href="https://arcanospeedruns.github.io/">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="arcanospeedruns">
-  <meta property="og:title" content="Carlos Gouveia | arcanospeedruns">
-  <meta property="og:description" content="Analista de dados e designer. Python, SQL e dashboards, com experiência em pesquisa clínica, e identidade visual para marcas.">
-  <meta property="og:url" content="https://arcanospeedruns.github.io/">
-  <meta property="og:image" content="https://arcanospeedruns.github.io/og.png">
-  <meta property="og:locale" content="pt_BR">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" href="fonts/tanker.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="style.css?v=202611032205">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stronghold-Protocol — Free Browser Tower Defense Auto-Chess Fan Game</title>
+<meta name="description" content="Stronghold-Protocol is a free browser-based tower defense auto-chess fan game inspired by Arknights. Play solo or in 1–4 player online co-op. Download it from the official GitHub repository and start defending today.">
+<meta name="keywords" content="arknights, auto-chess, fan-game, nodejs, tower-defense, websocket, Stronghold-Protocol, browser tower defense, co-op tower defense, free fan game">
+<meta name="author" content="Stronghold-Protocol Fan Project">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#6d28d9">
+<link rel="canonical" href="https://github.com/kunal4040/Stronghold-Protocol">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stronghold-Protocol — Free Browser Tower Defense Auto-Chess Fan Game">
+<meta property="og:description" content="An unofficial Arknights fan recreation: a browser auto-chess tower defense you can play solo or with up to three friends online.">
+<meta property="og:url" content="https://github.com/kunal4040/Stronghold-Protocol">
+<meta property="og:site_name" content="Stronghold-Protocol">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stronghold-Protocol — Free Browser Tower Defense Auto-Chess Fan Game">
+<meta name="twitter:description" content="Defend the line solo or with friends in a free browser tower defense with auto-chess strategy. Download from GitHub.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Stronghold-Protocol",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "description": "Unofficial Arknights fan recreation: a browser-based auto-chess tower defense with solo play and 1–4 player online co-op.",
+  "url": "https://github.com/kunal4040/Stronghold-Protocol",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "arknights, auto-chess, fan-game, tower-defense, websocket, nodejs"
+}
+</script>
+
+<style>
+  @media (max-width: 640px) {
+    .sp-wrap { padding: 18px 12px 40px 12px !important; }
+    .sp-card { padding: 20px 16px !important; }
+    .sp-h1 { font-size: 26px !important; line-height: 1.25 !important; }
+    .sp-btn { font-size: 16px !important; padding: 16px 22px !important; }
+    .sp-h2 { font-size: 20px !important; }
+  }
+</style>
 </head>
-<body class="indice-pg">
+<body style="margin:0; padding:0; background-color:#f5f6fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#374151; -webkit-font-smoothing:antialiased;">
 
-  <div class="conteudo">
-    <header class="topo mono">
-      <div class="topo-esq"><a class="marca" href="index.html">ARCANOSPEEDRUNS</a><span class="idioma" aria-label="Idioma"><span aria-current="true">PT<span class="br">-BR</span></span><a href="en/index.html" hreflang="en" lang="en">EN</a></span></div>
-      <nav aria-label="Páginas">
-        <a href="index.html" aria-current="page">SOBRE</a>
-        <a href="portfolio.html">PORTFÓLIO</a>
-        <a href="contato.html">CONTATO</a>
-      </nav>
-    </header>
+<div class="sp-wrap" style="max-width:900px; margin:0 auto; padding:36px 22px 60px 22px;">
 
-    <main>
-      <div class="cabeca">
-        <canvas id="onda" aria-hidden="true"></canvas>
-        <div>
-          <h1>CARLOS GOUVEIA</h1>
-          <p class="papel">Analista de dados com experiência em pesquisa clínica e formação em design gráfico. Faço análise exploratória, tratamento e qualidade de dados com Python e entrego indicadores em dashboards. No design, crio identidades visuais e conteúdo para redes sociais. Estudo Ciência da Computação na PUC-SP.</p>
-        </div>
-        <dl class="ficha">
-          <dt>Localização</dt><dd>São Paulo, SP</dd>
-          <dt>Área</dt><dd>Dados e design</dd>
-          <dt>Idiomas</dt><dd>Inglês fluente</dd>
-          <dt>Disponibilidade</dt><dd class="vivo">Vagas júnior, remoto ou híbrido</dd>
-        </dl>
-      </div>
+  <div class="sp-card" style="background:linear-gradient(135deg, #faf5ff 0%, #eef2ff 100%); border:1px solid #e5e7eb; border-radius:18px; padding:38px 30px; box-shadow:0 10px 30px rgba(31, 41, 55, 0.08); margin-bottom:24px; text-align:center;">
 
-      <!-- Para adicionar um item, copie uma <li class="linha"> dentro da seção certa. -->
+    <h1 class="sp-h1" style="font-size:36px; line-height:1.2; margin:0 0 16px 0; color:#111827; font-weight:800; letter-spacing:-0.5px;">🛡️ Stronghold-Protocol - Browser Tower Defense With Friends</h1>
 
-      <section class="secao" aria-labelledby="s-exp">
-        <h2 id="s-exp">EXPERIÊNCIA EM DADOS E PRODUTO</h2>
-        <ul>
-          <li class="linha">
-            <strong>ANALISTA DE DADOS</strong>
-            <p>Cignamed, estágio em pesquisa clínica. Automatizei em Python a unificação de 3 bases com códigos diferentes (1.900 respondentes × 500 perguntas, cerca de 950 mil respostas): o que levou cerca de 2 meses agora leva uns 2 minutos. Na auditoria, corrigi mais de 200 duplicidades e centenas de inconsistências.</p>
-            <span class="quando mono">MAI – OUT 2026</span>
-          </li>
-          <li class="linha">
-            <strong>ANALISTA DE PRODUTO E DADOS</strong>
-            <p>OrderHub, freelance. KPIs e relatórios usados pela liderança na fase alfa do produto, em metodologia ágil e com time internacional em inglês.</p>
-            <span class="quando mono">MAR – JUL 2025</span>
-          </li>
-          <li class="linha">
-            <strong>GERENTE DE PROJETOS</strong>
-            <p>BlazingBoost, freelance. Coordenei 2 equipes de 6 pessoas atendendo 30 clientes ao mesmo tempo, em operação internacional e com metodologia ágil.</p>
-            <span class="quando mono">JAN – DEZ 2025</span>
-          </li>
-        </ul>
-      </section>
+    <p style="font-size:18px; line-height:1.7; margin:0 0 12px 0; color:#4b5563;">
+      A free, unofficial fan recreation of the Arknights 卫戍协议：盟约 mode. Build your defense, upgrade your squad, and hold the line alone or with up to three friends online — right in your browser.
+    </p>
 
-      <section class="secao" aria-labelledby="s-des">
-        <h2 id="s-des">EXPERIÊNCIA EM DESIGN E CONTEÚDO</h2>
-        <ul>
-          <li class="linha">
-            <strong>SOCIAL MEDIA MANAGER</strong>
-            <p>Freelance, nicho de educação. Perfil de 500 para 1.000 seguidores até agora e alcance de cerca de 100 mil contas, com conteúdo e peças próprias.</p>
-            <span class="quando mono">OUT 2026 – HOJE</span>
-          </li>
-          <li class="linha">
-            <strong>DESIGNER GRÁFICO</strong>
-            <p>Freelance. Identidade visual completa (logo, paleta e tipografia) para uma clínica de psicologia.</p>
-            <span class="quando mono">DEZ 2024 – JAN 2025</span>
-          </li>
-          <li class="linha">
-            <strong>SOCIAL MEDIA MANAGER</strong>
-            <p>Freelance. Gestão de uma conta no Twitter, do planejamento à publicação, com peças próprias.</p>
-            <span class="quando mono">JAN 2020 – JUN 2021</span>
-          </li>
-        </ul>
-      </section>
+    <p style="font-size:15px; line-height:1.7; margin:0 0 26px 0; color:#6b7280;">
+      Non-commercial community project · Single player and 1–4 player co-op · No programming knowledge required
+    </p>
 
-      <section class="secao" aria-labelledby="s-vol">
-        <h2 id="s-vol">VOLUNTARIADO</h2>
-        <ul>
-          <li class="linha">
-            <strong>ASSOCIADO</strong>
-            <p>Confraria dos Miados e Latidos. Apoio no transporte e na adoção de cerca de 50 animais.</p>
-            <span class="quando mono">JUN – AGO 2025</span>
-          </li>
-          <li class="linha">
-            <strong>COMMUNITY MANAGER</strong>
-            <p>Centro Acadêmico Popular de Exatas – PUC-SP. Participei da produção do material gráfico distribuído na PUC e ajudei nas redes sociais, com divulgação de eventos.</p>
-            <span class="quando mono">JAN – JUN 2024</span>
-          </li>
-        </ul>
-      </section>
+    <p style="margin:0;">
+      <a class="sp-btn" href="https://github.com/kunal4040/Stronghold-Protocol" style="display:inline-block; background:linear-gradient(135deg, #6d28d9 0%, #db2777 55%, #f97316 100%); color:#ffffff; text-decoration:none; font-size:18px; font-weight:700; padding:18px 40px; border-radius:999px; box-shadow:0 8px 22px rgba(109, 40, 217, 0.32); letter-spacing:0.2px;">⬇️ Download Stronghold-Protocol</a>
+    </p>
 
-      <section class="secao" aria-labelledby="s-form">
-        <h2 id="s-form">FORMAÇÃO</h2>
-        <ul>
-          <li class="linha">
-            <strong>CIÊNCIA DA COMPUTAÇÃO</strong>
-            <p>PUC-SP. Bacharelado, conclusão prevista para dezembro de 2027.</p>
-            <span class="quando mono">2023 – 2027</span>
-          </li>
-          <li class="linha">
-            <strong>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</strong>
-            <p>Universidade Anhembi Morumbi. Tecnólogo, concluído.</p>
-            <span class="quando mono">2022 – 2024</span>
-          </li>
-          <li class="linha">
-            <strong>DESIGN GRÁFICO</strong>
-            <p>Etec Carlos de Campos. Técnico, concluído.</p>
-            <span class="quando mono">2023 – 2024</span>
-          </li>
-          <li class="linha">
-            <strong>INGLÊS</strong>
-            <p>Wizard by Pearson.</p>
-            <span class="quando mono">2015 – 2018</span>
-          </li>
-        </ul>
-      </section>
-
-      <section class="secao" aria-labelledby="s-ferr">
-        <h2 id="s-ferr">COMPETÊNCIAS</h2>
-        <ul>
-          <li class="linha">
-            <strong>LINGUAGENS</strong>
-            <p>Python (pandas, openpyxl), SQL (PostgreSQL), JavaScript e C/C++.</p>
-          </li>
-          <li class="linha">
-            <strong>ANÁLISE DE DADOS</strong>
-            <p>Análise exploratória, estatística descritiva, cruzamento de bases, qualidade e padronização de dados.</p>
-          </li>
-          <li class="linha">
-            <strong>MODELAGEM</strong>
-            <p>Chaves e granularidade, dicionários de dados e estrutura em camadas (bruto, tratado, analítico).</p>
-          </li>
-          <li class="linha">
-            <strong>FERRAMENTAS</strong>
-            <p>Power BI, REDCap, Excel avançado, Git, Notion, HTML e CSS.</p>
-          </li>
-          <li class="linha">
-            <strong>DESIGN E CONTEÚDO</strong>
-            <p>Illustrator, InDesign, Photoshop, Figma, Canva e Meta Business Suite.</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="secao" aria-labelledby="s-dados">
-        <h2 id="s-dados">PORTFÓLIO</h2>
-        <ul>
-          <li class="linha">
-            <strong>PROJETOS</strong>
-            <p>Projetos de dados, produto e design, com o que foi feito, as ferramentas e o código de cada um.</p>
-            <a class="botao mono" href="portfolio.html">VER PROJETOS</a>
-          </li>
-        </ul>
-      </section>
-
-    </main>
-
-    <p class="rodape mono"><span>arcanospeedruns</span><span>SÃO PAULO, 2026</span></p>
+    <p style="font-size:13px; color:#9ca3af; margin:16px 0 0 0;">Free to download · Windows · Runs in your browser</p>
   </div>
 
-  <script src="onda.js?v=202611032130"></script>
-  <script>document.querySelectorAll(".idioma a").forEach(a=>a.addEventListener("click",()=>{a.href=a.href.split("#")[0]+location.hash}))</script>
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 14px 0; color:#111827; font-weight:700;">🎯 What Is Stronghold-Protocol?</h2>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      Stronghold-Protocol is a fan-made strategy game that blends two genres you probably already know: <strong>tower defense</strong>, where you place defenders to stop waves of enemies, and <strong>auto-chess</strong>, where you buy, combine, and position units that then fight on their own. Instead of clicking frantically, you plan carefully — then watch your plan play out.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      The game is a loving, non-commercial tribute to the co-op mode from the mobile game Arknights. It keeps the feel of the original — deploying operators, managing resources between rounds, and coordinating with teammates — while turning it into something you can open in a normal web browser on a normal computer.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0;">
+      You do not need to know anything about programming, servers, or command lines to play. If you can download a file and open a web browser, you already have everything you need.
+    </p>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 16px 0; color:#111827; font-weight:700;">✨ What You Can Do In The Game</h2>
+    <ul style="font-size:16px; line-height:1.9; margin:0; padding-left:22px; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Play solo at your own pace.</strong> Learn the enemy waves, test unit combinations, and refine your defense without any pressure.</li>
+      <li style="margin-bottom:10px;"><strong>Team up with 1–4 players online.</strong> Share the battlefield with friends, split the defensive lines, and cover each other's weak spots in real time.</li>
+      <li style="margin-bottom:10px;"><strong>Build a defense that fights for you.</strong> Place your defenders, upgrade them between rounds, and let the auto<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stronghold-Protocol — Browser Tower Defense Auto-Chess Fan Game</title>
+<meta name="description" content="Stronghold-Protocol is a free browser-based tower defense auto-chess fan game inspired by Arknights. Play solo or in 1–4 player online co-op. Download it from GitHub and start defending today.">
+<meta name="keywords" content="arknights, auto-chess, fan-game, nodejs, tower-defense, websocket, Stronghold-Protocol, browser tower defense, co-op tower defense, free fan game">
+<meta name="author" content="Stronghold-Protocol Fan Project">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#6d28d9">
+<link rel="canonical" href="https://github.com/kunal4040/Stronghold-Protocol">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stronghold-Protocol — Browser Tower Defense Auto-Chess Fan Game">
+<meta property="og:description" content="An unofficial Arknights fan recreation: a browser auto-chess tower defense you can play solo or with up to three friends online.">
+<meta property="og:url" content="https://github.com/kunal4040/Stronghold-Protocol">
+<meta property="og:site_name" content="Stronghold-Protocol">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stronghold-Protocol — Browser Tower Defense Auto-Chess Fan Game">
+<meta name="twitter:description" content="Defend the line solo or with friends in a free browser tower defense with auto-chess strategy. Download from GitHub.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Stronghold-Protocol",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "description": "Unofficial Arknights fan recreation: a browser-based auto-chess tower defense with solo play and 1–4 player online co-op.",
+  "url": "https://github.com/kunal4040/Stronghold-Protocol",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "arknights, auto-chess, fan-game, tower-defense, websocket, nodejs"
+}
+</script>
+<style>
+  @media (max-width: 640px) {
+    .sp-wrap { padding: 20px 12px 40px 12px !important; }
+    .sp-card { padding: 22px 16px !important; }
+    .sp-h1 { font-size: 26px !important; line-height: 1.25 !important; }
+    .sp-btn { font-size: 16px !important; padding: 16px 22px !important; }
+    .sp-h2 { font-size: 20px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f5f6fa; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#374151; -webkit-font-smoothing:antialiased;">
+
+<div class="sp-wrap" style="max-width:900px; margin:0 auto; padding:36px 22px 60px 22px;">
+
+  <div class="sp-card" style="background:linear-gradient(135deg, #faf5ff 0%, #eef2ff 100%); border:1px solid #e5e7eb; border-radius:18px; padding:38px 30px; box-shadow:0 10px 30px rgba(31, 41, 55, 0.08); margin-bottom:24px; text-align:center;">
+    <h1 class="sp-h1" style="font-size:36px; line-height:1.2; margin:0 0 16px 0; color:#111827; font-weight:800; letter-spacing:-0.5px;">🛡️ Stronghold-Protocol - Browser Tower Defense With Friends</h1>
+    <p style="font-size:18px; line-height:1.7; margin:0 0 12px 0; color:#4b5563;">
+      A free, unofficial fan recreation of the Arknights 卫戍协议：盟约 mode. Build your defense, upgrade your squad, and hold the line alone or with up to three friends online — right in your browser.
+    </p>
+    <p style="font-size:15px; line-height:1.7; margin:0 0 26px 0; color:#6b7280;">
+      Non-commercial community project · Single player and 1–4 player co-op · No programming knowledge required
+    </p>
+    <p style="margin:0;">
+      <a class="sp-btn" href="https://github.com/kunal4040/Stronghold-Protocol" style="display:inline-block; background:linear-gradient(135deg, #6d28d9 0%, #db2777 55%, #f97316 100%); color:#ffffff; text-decoration:none; font-size:18px; font-weight:700; padding:18px 40px; border-radius:999px; box-shadow:0 8px 22px rgba(109, 40, 217, 0.32); letter-spacing:0.2px;">⬇️ Download Stronghold-Protocol</a>
+    </p>
+    <p style="font-size:13px; color:#9ca3af; margin:16px 0 0 0;">Free to download · Windows · Runs in your browser</p>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 14px 0; color:#111827; font-weight:700;">🎯 What Is Stronghold-Protocol?</h2>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      Stronghold-Protocol is a fan-made strategy game that blends two genres you probably already know: <strong>tower defense</strong>, where you place defenders to stop waves of enemies, and <strong>auto-chess</strong>, where you buy, combine, and position units that then fight on their own. Instead of clicking frantically, you plan carefully — then watch your plan play out.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      The game is a loving, non-commercial tribute to the co-op mode from the mobile game Arknights. It keeps the feel of the original — deploying operators, managing resources between rounds, and coordinating with teammates — while turning it into something you can open in a normal web browser on a normal computer.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0;">
+      You do not need to know anything about programming, servers, or command lines to play. If you can download a file and open a web browser, you already have everything you need.
+    </p>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 16px 0; color:#111827; font-weight:700;">✨ Key Features</h2>
+    <ul style="font-size:16px; line-height:1.9; margin:0; padding-left:22px; color:#374151;">
+      <li style="margin-bottom:10px;"><strong>Play solo at your own pace.</strong> Learn the enemy waves, test unit combinations, and refine your defense without any pressure.</li>
+      <li style="margin-bottom:10px;"><strong>Team up with 1–4 players online.</strong> Share the battlefield with friends, split the defensive lines, and cover each other's weak spots in real time.</li>
+      <li style="margin-bottom:10px;"><strong>Build a defense that fights for you.</strong> Place your defenders, upgrade them between rounds, and let the auto-chess combat do the rest.</li>
+      <li style="margin-bottom:10px;"><strong>Manage your resources wisely.</strong> Earn currency during each wave, then decide whether to save for a powerful unit or reinforce what you already have.</li>
+      <li style="margin-bottom:10px;"><strong>Coordinate with your team.</strong> Use the in-game chat to plan your strategy, call out incoming waves, and celebrate a hard-fought victory together.</li>
+      <li style="margin-bottom:10px;"><strong>Runs entirely in your browser.</strong> No heavy installers, no launchers, no complicated setup. Your Windows PC and a modern browser are all you need.</li>
+      <li style="margin-bottom:0;"><strong>Free and community-driven.</strong> This is a non-commercial fan project made by players, for players.</li>
+    </ul>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 16px 0; color:#111827; font-weight:700;">⬇️ Download &amp; Setup</h2>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 18px 0;">
+      Getting started is simple. <strong>Visit this link to download the application:</strong>
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 18px 0;">
+      <a href="https://github.com/kunal4040/Stronghold-Protocol" style="color:#6d28d9; font-weight:700; text-decoration:underline; word-break:break-all;">https://github.com/kunal4040/Stronghold-Protocol</a>
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      On that page, you will find the download button and the files you need. Click it to get the game onto your Windows computer. Once the download completes, open the game file in your web browser — Chrome, Edge, or Firefox all work — and you are ready to play.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0;">
+      If you are playing co-op, make sure your friends also download the game from the same link so everyone is on the same version.
+    </p>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:22px;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 16px 0; color:#111827; font-weight:700;">💻 System Requirements</h2>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 12px 0;">
+      Stronghold-Protocol is lightweight and designed to run on most modern Windows computers. Here is what you need:
+    </p>
+    <ul style="font-size:16px; line-height:1.9; margin:0; padding-left:22px; color:#374151;">
+      <li style="margin-bottom:8px;"><strong>Operating system:</strong> Windows 10 or Windows 11 (64-bit recommended).</li>
+      <li style="margin-bottom:8px;"><strong>Browser:</strong> An up-to-date version of Chrome, Edge, or Firefox.</li>
+      <li style="margin-bottom:8px;"><strong>Memory:</strong> 4 GB of RAM or more.</li>
+      <li style="margin-bottom:8px;"><strong>Storage:</strong> Around 500 MB of free space for the game files and browser cache.</li>
+      <li style="margin-bottom:0;"><strong>Internet:</strong> A stable connection is required for online co-op. Solo play works offline once the game is loaded.</li>
+    </ul>
+  </div>
+
+  <div class="sp-card" style="background:#ffffff; border:1px solid #eef0f4; border-radius:16px; padding:30px; box-shadow:0 4px 14px rgba(31, 41, 55, 0.06); margin-bottom:0;">
+    <h2 class="sp-h2" style="font-size:23px; line-height:1.3; margin:0 0 16px 0; color:#111827; font-weight:700;">Need Help?</h2>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      If you get stuck, the GitHub page is the best place to look. The project page often includes notes from the developer and a place to report problems. You can also check the Issues tab on that same page to see if someone else has already asked your question.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0 0 14px 0;">
+      Remember that Stronghold-Protocol is a fan project, not an official Arknights product. It is shared freely for the community to enjoy. Be kind to other players, especially in co-op matches, and have fun defending your stronghold.
+    </p>
+    <p style="font-size:16px; line-height:1.8; margin:0;">
+      Ready to jump in? <a href="https://github.com/kunal4040/Stronghold-Protocol" style="color:#6d28d9; font-weight:700; text-decoration:underline;">Visit this link to download the application</a> and start your first wave today.
+    </p>
+  </div>
+
+</div>
+
 </body>
 </html>
+```
